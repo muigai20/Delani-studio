@@ -38,6 +38,52 @@
   margin-top: 68px;
   margin-left: 85px;
 }
+.card {
+      margin: 10px 0;
+      position: relative;
+      overflow: hidden;
+  }
+  .card:hover img {
+      transform: scale(1.2);
+      transition: all 0.3s ease;
+
+
+  }
+  .portfolio {
+      position: absolute;
+      width: 100%;
+      min-height: 100%;
+      background: rgba(56, 54, 54, 0.582);
+      cursor: pointer;
+      display: none;
+      transition: all 0.7s ease;
+  }
+  .ptag {
+      padding: 5% 0;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.501);
+      padding: 50px 10px;
+      font-weight: 100%;
+      padding-top: 30px;
+      border: 4px solid whitesmoke;
+      font-size: 1.1em;
+      line-height: 90%;
+      margin: 20% 5%;
+      overflow: hidden;
+      letter-spacing: 2px;
+      font-family: 'Monoton', cursive;
+  }
+  .social img {
+      border-radius: 50%;
+      transition: 0.2s ease-out;
+  }
+  .social img:hover {
+      box-shadow: 0 0 20px rgb(0, 0, 0);
+      margin: -3px;
+      padding: 3px;
+      background: yellowgreen;
+  }
+
 .hide{
   display: none;
 }
