@@ -1,0 +1,13 @@
+#header {
+  margin: 0;
+  background-image: url("../images/image 1.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+}
+#h{
+  margin-top:238px;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
