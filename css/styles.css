@@ -23,6 +23,21 @@
   text-align: center;
   margin-top: 25px;
 }
+#services{
+  margin: 0;
+  background-image: url("../images/s_image.jpg");
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  margin-top:38px;
+
+
+}
+#serve{
+  color:white;
+  margin-top: 68px;
+  margin-left: 85px;
+}
 .hide{
   display: none;
 }
