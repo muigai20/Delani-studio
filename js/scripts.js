@@ -10,3 +10,21 @@ $("button").click(function (e) {
   alert(' Dear ' + ' esteemed ' + client + ' we have received your message. ' + ' Thank you for the feedback.');
   e.preventDefault();
 });
+
+$("#form").submit(function(e){
+e.preventDefault();
+var name = $("input#name").val();
+console.log(name);
+});
+
+$("#form").submit(function(e){
+  e.preventDefault();
+  var email = $("input#email").val();
+  console.log(email);
+  });
+
+  $("#form").submit(function(e){
+    e.preventDefault();
+    var message = $("textarea#message").val();
+    console.log(message);
+    });
