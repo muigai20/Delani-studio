@@ -87,3 +87,32 @@
 .hide{
   display: none;
 }
+#contact{
+  background-image: url("../images/c_image.jpg");
+  background-size: cover;
+  background-position:relative;
+  height: 60vh;
+  margin-top: 30px;
+  color: white;
+}
+.form-cont input {
+       width: 39%;
+       background: transparent;
+   }
+   .form-cont textarea {
+       margin-top: 10px;
+       width: 80%;
+       background: transparent;
+
+   }
+   .form-cont {
+       text-align: center;
+       position: relative;
+       width: 700px;
+       max-width: 100%;
+       left: 50%;
+       transform: translate(-50%);
+   }
+   .t .e{
+     color: white;
+   }

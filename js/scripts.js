@@ -3,5 +3,5 @@ $('.main').click(function () {
   $(this).children('.show').toggle(1500);
 });
 $(".card").hover(function () {
-  $(this).children(".portfolio").fadeToggle(1000, "linear");
+  $(this).children(".portfolio").fadeToggle(1200, "linear");
 });
