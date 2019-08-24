@@ -31,3 +31,6 @@ $("#form").submit(function(e){
     $('input#name').css('color', 'white');
 $('input#email').css('color', 'white');
 $('textarea#message').css('color', 'white');
+$("button").on('click', function () {
+  $('form').each(function () {
+    this.reset();
