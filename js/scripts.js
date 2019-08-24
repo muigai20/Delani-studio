@@ -28,3 +28,6 @@ $("#form").submit(function(e){
     var message = $("textarea#message").val();
     console.log(message);
     });
+    $('input#name').css('color', 'white');
+$('input#email').css('color', 'white');
+$('textarea#message').css('color', 'white');
